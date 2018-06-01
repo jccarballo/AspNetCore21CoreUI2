@@ -3,9 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4815A98-1531-4DAD-8EC7-56B7C34E61AF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E790F0B-B285-49E5-A19B-F5D013DE252B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreUI.Mvc", "src\CoreUI.Mvc\CoreUI.Mvc.csproj", "{0FF9BA55-7E34-467D-806B-ADA4A59A87C7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FF9BA55-7E34-467D-806B-ADA4A59A87C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF9BA55-7E34-467D-806B-ADA4A59A87C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF9BA55-7E34-467D-806B-ADA4A59A87C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF9BA55-7E34-467D-806B-ADA4A59A87C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FF9BA55-7E34-467D-806B-ADA4A59A87C7} = {1E790F0B-B285-49E5-A19B-F5D013DE252B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3D8A49B-5D62-4B3C-8C92-D152138EB0F2}
